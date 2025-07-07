@@ -1,0 +1,11 @@
+{
+    "name": "dockerContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+        }
+    }
+}
