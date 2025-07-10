@@ -1,0 +1,152 @@
+{
+  "model_type": "TF-IDF + Logistic Regression",
+  "timestamp": "2025-07-10T06:28:37.291019",
+  "validation_accuracy": 0.6774193548387096,
+  "validation_precision": 0.6544002510904227,
+  "validation_recall": 0.6647377971471788,
+  "validation_f1": 0.6553471243024855,
+  "training_time": 0.25135040283203125,
+  "inference_time": 0.005464792251586914,
+  "samples_per_second": 68072.12111164434,
+  "feature_count": 5000,
+  "per_class_metrics": {
+    "Engineering": {
+      "precision": 0.8125,
+      "recall": 0.7761194029850746,
+      "f1-score": 0.7938931297709924,
+      "support": 67.0
+    },
+    "Finance": {
+      "precision": 0.7868852459016393,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.8495575221238938,
+      "support": 52.0
+    },
+    "HR": {
+      "precision": 0.6987951807228916,
+      "recall": 0.6904761904761905,
+      "f1-score": 0.6946107784431138,
+      "support": 84.0
+    },
+    "Healthcare": {
+      "precision": 0.5483870967741935,
+      "recall": 0.4857142857142857,
+      "f1-score": 0.5151515151515151,
+      "support": 35.0
+    },
+    "IT": {
+      "precision": 0.5675675675675675,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.5753424657534246,
+      "support": 36.0
+    },
+    "Marketing": {
+      "precision": 0.6458333333333334,
+      "recall": 0.5,
+      "f1-score": 0.5636363636363636,
+      "support": 62.0
+    },
+    "Sales": {
+      "precision": 0.5208333333333334,
+      "recall": 0.6944444444444444,
+      "f1-score": 0.5952380952380952,
+      "support": 36.0
+    },
+    "accuracy": 0.6774193548387096,
+    "macro avg": {
+      "precision": 0.6544002510904227,
+      "recall": 0.6647377971471788,
+      "f1-score": 0.6553471243024855,
+      "support": 372.0
+    },
+    "weighted avg": {
+      "precision": 0.678688106058613,
+      "recall": 0.6774193548387096,
+      "f1-score": 0.6742790161445505,
+      "support": 372.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      52,
+      1,
+      3,
+      2,
+      4,
+      3,
+      2
+    ],
+    [
+      0,
+      48,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    [
+      3,
+      1,
+      58,
+      7,
+      4,
+      6,
+      5
+    ],
+    [
+      1,
+      4,
+      6,
+      17,
+      3,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      4,
+      0,
+      21,
+      5,
+      3
+    ],
+    [
+      5,
+      5,
+      8,
+      3,
+      3,
+      31,
+      7
+    ],
+    [
+      2,
+      0,
+      3,
+      2,
+      2,
+      2,
+      25
+    ]
+  ],
+  "department_names": [
+    "Engineering",
+    "Finance",
+    "HR",
+    "Healthcare",
+    "IT",
+    "Marketing",
+    "Sales"
+  ],
+  "model_config": {
+    "tfidf_max_features": 5000,
+    "tfidf_ngram_range": [
+      1,
+      2
+    ],
+    "logistic_solver": "lbfgs",
+    "class_weight": "balanced"
+  }
+}

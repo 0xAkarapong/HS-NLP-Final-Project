@@ -1,0 +1,47 @@
+{
+  "phase": "Phase 2 - Data Preprocessing",
+  "timestamp": "2025-07-10T06:28:31.659585",
+  "preprocessing_params": {
+    "min_words_threshold": 50,
+    "text_cleaning_applied": true,
+    "html_removal": true,
+    "email_anonymization": true,
+    "phone_anonymization": true,
+    "url_anonymization": true
+  },
+  "split_params": {
+    "train_size": 0.7,
+    "val_size": 0.15,
+    "test_size": 0.15,
+    "random_state": 42,
+    "stratify": true
+  },
+  "dataset_stats": {
+    "original_count": 2484,
+    "final_count": 2483,
+    "removed_count": 1,
+    "train_count": 1738,
+    "val_count": 372,
+    "test_count": 373
+  },
+  "text_stats": {
+    "train_mean_words": 801.6944764096663,
+    "val_mean_words": 826.758064516129,
+    "test_mean_words": 816.6246648793566,
+    "train_std_words": 357.33525400588564,
+    "val_std_words": 426.49005152273696,
+    "test_std_words": 366.2969519102979
+  },
+  "stratification_quality": {
+    "max_distribution_difference": 0.002940413387529192,
+    "status": "excellent"
+  },
+  "outputs": {
+    "train_data": "results/phase2_preprocessing/data/train.csv",
+    "val_data": "results/phase2_preprocessing/data/val.csv",
+    "test_data": "results/phase2_preprocessing/data/test.csv",
+    "processed_data": "results/phase2_preprocessing/data/processed_dataset.csv",
+    "label_encoder": "results/phase2_preprocessing/data/label_encoder.pkl",
+    "summary": "results/phase2_preprocessing/reports/preprocessing_summary.txt"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "Phase 3 - Baseline Model",
+  "timestamp": "2025-07-10T06:28:37.304291",
+  "model_params": {
+    "algorithm": "TF-IDF + Logistic Regression",
+    "tfidf_max_features": 5000,
+    "tfidf_ngram_range": [
+      1,
+      2
+    ],
+    "tfidf_min_df": 2,
+    "tfidf_max_df": 0.95,
+    "logistic_solver": "lbfgs",
+    "class_weight": "balanced",
+    "multi_class": "ovr"
+  },
+  "performance_metrics": {
+    "validation_accuracy": 0.6774193548387096,
+    "validation_f1": 0.6553471243024855,
+    "validation_precision": 0.6544002510904227,
+    "validation_recall": 0.6647377971471788,
+    "training_time": 0.25135040283203125,
+    "inference_time": 0.005464792251586914,
+    "samples_per_second": 68072.12111164434
+  },
+  "data_info": {
+    "train_samples": 1738,
+    "val_samples": 372,
+    "test_samples": 373,
+    "feature_count": 5000,
+    "vocabulary_size": 5000
+  },
+  "outputs": {
+    "model_file": "results/phase3_baseline/models/baseline_tfidf_logistic.pkl",
+    "vectorizer_file": "results/phase3_baseline/models/tfidf_vectorizer.pkl",
+    "results_file": "results/phase3_baseline/results/baseline_results.json",
+    "predictions_file": "results/phase3_baseline/results/predictions.csv",
+    "summary_file": "results/phase3_baseline/reports/baseline_summary.txt"
+  }
+}

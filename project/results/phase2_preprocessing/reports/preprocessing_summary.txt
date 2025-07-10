@@ -1,0 +1,42 @@
+
+=== RESUME CLASSIFICATION - PREPROCESSING SUMMARY ===
+Generated on: 2025-07-10 06:28:31.654898
+
+PREPROCESSING RESULTS:
+- Original resumes: 2484
+- After cleaning: 2483 (removed 1)
+- Minimum word threshold: 50 words
+
+SPLIT SIZES:
+- Training: 1738 (70.0%)
+- Validation: 372 (15.0%)
+- Test: 373 (15.0%)
+
+WORD COUNT STATISTICS:
+- Train avg: 801.7 words (std: 357.3)
+- Val avg: 826.8 words (std: 426.5)
+- Test avg: 816.6 words (std: 366.3)
+
+DEPARTMENT MAPPING:
+- Engineering: 0
+- Finance: 1
+- HR: 2
+- Healthcare: 3
+- IT: 4
+- Marketing: 5
+- Sales: 6
+
+FILES SAVED:
+- Training data: results/phase2_preprocessing/data/train.csv
+- Validation data: results/phase2_preprocessing/data/val.csv
+- Test data: results/phase2_preprocessing/data/test.csv
+- Processed dataset: results/phase2_preprocessing/data/processed_dataset.csv
+- Label encoder: results/phase2_preprocessing/data/label_encoder.pkl
+
+STRATIFICATION QUALITY:
+- Max distribution difference: 0.3%
+- Status: ✅ Excellent
+
+NEXT STEPS:
+✅ Phase 2 Complete: Data preprocessing and splitting
+🔄 Phase 3 Next: Baseline model implementation (TF-IDF + LogReg)

@@ -1,0 +1,36 @@
+{
+  "phase": "Phase 1 - Data Exploration",
+  "timestamp": "2025-07-10T06:28:24.411588",
+  "dataset_info": {
+    "total_resumes": 2484,
+    "original_categories": 24,
+    "target_departments": 7,
+    "memory_usage_mb": 86.1953706741333
+  },
+  "department_distribution": {
+    "HR": 563,
+    "Engineering": 446,
+    "Marketing": 418,
+    "Finance": 351,
+    "IT": 238,
+    "Sales": 236,
+    "Healthcare": 232
+  },
+  "text_statistics": {
+    "avg_char_count": 6295.3087761674715,
+    "avg_word_count": 811.3256843800322,
+    "min_words": 0,
+    "max_words": 5190
+  },
+  "class_balance": {
+    "most_common": "HR",
+    "least_common": "Healthcare",
+    "imbalance_ratio": 2.4267241379310347
+  },
+  "outputs": {
+    "category_analysis": "results/phase1_data_exploration/data/category_analysis.csv",
+    "department_mapping": "results/phase1_data_exploration/data/department_mapping.json",
+    "text_statistics": "results/phase1_data_exploration/data/text_statistics.csv",
+    "summary": "results/phase1_data_exploration/reports/data_exploration_stats.txt"
+  }
+}

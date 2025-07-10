@@ -1,0 +1,33 @@
+{
+  "model_type": "TF-IDF + Logistic Regression",
+  "created_at": "2025-07-10T06:28:37.290073",
+  "tfidf_params": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "stop_words": "english",
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true,
+    "vocabulary_size": 5000
+  },
+  "logistic_params": {
+    "solver": "lbfgs",
+    "class_weight": "balanced",
+    "multi_class": "ovr",
+    "max_iter": 1000,
+    "converged": true,
+    "iterations_used": 18
+  },
+  "performance": {
+    "validation_accuracy": 0.6774193548387096,
+    "validation_f1": 0.6553471243024855,
+    "validation_precision": 0.6544002510904227,
+    "validation_recall": 0.6647377971471788,
+    "training_time_seconds": 0.25135040283203125,
+    "inference_time_seconds": 0.005464792251586914,
+    "samples_per_second": 68072.12111164434
+  }
+}

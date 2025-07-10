@@ -1,0 +1,52 @@
+
+=== BASELINE MODEL PERFORMANCE SUMMARY ===
+Generated on: 2025-07-10 06:28:37.301772
+
+MODEL CONFIGURATION:
+- Algorithm: TF-IDF + Logistic Regression
+- Features: 5000 TF-IDF features
+- N-grams: (1, 2)
+- Class balancing: Enabled
+- Training samples: 1738
+- Validation samples: 372
+
+PERFORMANCE METRICS:
+- Validation Accuracy: 0.677
+- Macro Precision: 0.654
+- Macro Recall: 0.665
+- Macro F1-Score: 0.655
+
+EFFICIENCY METRICS:
+- Training time: 0.25 seconds
+- Inference speed: 68072.1 samples/second
+- Model size: ~0.3 MB
+
+PER-DEPARTMENT F1 SCORES:
+- Engineering: 0.794
+- Finance: 0.850
+- HR: 0.695
+- Healthcare: 0.515
+- IT: 0.575
+- Marketing: 0.564
+- Sales: 0.595
+
+TOP MISCLASSIFICATIONS:
+- Marketing → HR: 8 cases
+- HR → Healthcare: 7 cases
+- Marketing → Sales: 7 cases
+
+FILES SAVED:
+- Trained model: results/phase3_baseline/models/baseline_tfidf_logistic.pkl
+- TF-IDF vectorizer: results/phase3_baseline/models/tfidf_vectorizer.pkl
+- Model metadata: results/phase3_baseline/models/model_metadata.json
+- Results JSON: results/phase3_baseline/results/baseline_results.json
+- Predictions: results/phase3_baseline/results/predictions.csv
+- Classification report: results/phase3_baseline/results/classification_report.txt
+
+BENCHMARK ESTABLISHED:
+✅ Baseline F1-Score: 0.655
+🎯 Target for DistilBERT: >0.705 (5% improvement minimum)
+
+NEXT STEPS:
+✅ Phase 3 Complete: Baseline model trained and evaluated
+🔄 Phase 4 Next: BERT tokenization and preprocessing

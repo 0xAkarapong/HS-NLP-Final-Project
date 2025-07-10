@@ -1,0 +1,30 @@
+
+Split Analysis Report - Phase 2 Preprocessing
+
+STRATIFICATION VERIFICATION:
+             Train  Validation   Test
+Engineering  0.180       0.180  0.180
+Finance      0.142       0.140  0.142
+HR           0.227       0.226  0.228
+Healthcare   0.093       0.094  0.094
+IT           0.096       0.097  0.094
+Marketing    0.169       0.167  0.169
+Sales        0.094       0.097  0.094
+
+DISTRIBUTION DIFFERENCES:
+Max difference across splits: 0.3%
+Status: ✅ Excellent stratification
+
+WORD COUNT ANALYSIS:
+- Train: 801.7 ± 357.3 words
+- Val:   826.8 ± 426.5 words  
+- Test:  816.6 ± 366.3 words
+
+EMPTY TEXT CHECK:
+- Train: 0 empty texts
+- Val:   0 empty texts
+- Test:  0 empty texts
+- Total: 0 empty texts
+
+RECOMMENDATION:
+Data splits are ready for model training with balanced department distributions.

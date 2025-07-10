@@ -1,0 +1,45 @@
+
+=== RESUME CLASSIFICATION PROJECT - DATA EXPLORATION SUMMARY ===
+Generated on: 2025-07-10 06:28:24.398986
+
+DATASET OVERVIEW:
+- Total resumes: 2484
+- Original categories: 24
+- Target departments: 7
+- Memory usage: 86.20 MB
+
+DEPARTMENT DISTRIBUTION:
+Department
+HR             563
+Engineering    446
+Marketing      418
+Finance        351
+IT             238
+Sales          236
+Healthcare     232
+
+TEXT STATISTICS:
+- Average character count: 6295.3
+- Average word count: 811.3
+- Min words: 0
+- Max words: 5190
+
+CLASS BALANCE ANALYSIS:
+- Most common department: HR (563 resumes)
+- Least common department: Healthcare (232 resumes)
+- Imbalance ratio: 2.43:1
+
+PHASE 1 OUTPUTS:
+- Category analysis: results/phase1_data_exploration/data/category_analysis.csv
+- Department mapping: results/phase1_data_exploration/data/department_mapping.json
+- Text statistics: results/phase1_data_exploration/data/text_statistics.csv
+- Exploration summary: results/phase1_data_exploration/reports/data_exploration_stats.txt
+
+PLOTS GENERATED:
+- Original categories: results/phase1_data_exploration/plots/original_categories_distribution.png
+- Department distribution: results/phase1_data_exploration/plots/department_distribution.png
+- Text analysis: results/phase1_data_exploration/plots/text_length_analysis.png
+
+NEXT STEPS:
+✅ Phase 1 Complete: Data foundation established
+🔄 Phase 2 Next: Data preprocessing and stratified splitting
