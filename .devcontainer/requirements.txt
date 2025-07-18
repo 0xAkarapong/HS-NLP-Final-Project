@@ -9,3 +9,7 @@ seaborn==0.13.2
 wandb==0.21.0
 kagglehub==0.3.12
 accelerate==1.8.1
+loguru==0.7.2
+beautifulsoup4==4.12.3
+psutil==6.1.0
+polars==1.15.0

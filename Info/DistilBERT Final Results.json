@@ -1,0 +1,154 @@
+{
+  "model_type": "DistilBERT",
+  "training_time": 271.16497230529785,
+  "training_steps": 625,
+  "final_training_loss": 0.7707038803100585,
+  "validation_accuracy": 0.8870967741935484,
+  "validation_precision": 0.8823713128976286,
+  "validation_recall": 0.8882619450942432,
+  "validation_f1": 0.88427250390685,
+  "test_accuracy": 0.8955823293172691,
+  "test_precision": 0.8924272832750925,
+  "test_recall": 0.9011398838711686,
+  "test_f1": 0.8941421136855733,
+  "baseline_f1": 0.762,
+  "improvement_absolute": 0.12227250390684996,
+  "improvement_percentage": 16.046260355229652,
+  "inference_time": 4.341370677947998,
+  "samples_per_second": 57.12481573151921,
+  "speed_vs_baseline": 211.7030898942101,
+  "model_parameters": 66958855,
+  "max_sequence_length": 512,
+  "truncation_rate": 0.896,
+  "per_class_test_metrics": {
+    "Engineering": {
+      "precision": 0.972972972972973,
+      "recall": 0.8,
+      "f1-score": 0.8780487804878049,
+      "support": 45.0
+    },
+    "Finance": {
+      "precision": 0.868421052631579,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.9041095890410958,
+      "support": 35.0
+    },
+    "HR": {
+      "precision": 0.9310344827586207,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.9391304347826087,
+      "support": 57.0
+    },
+    "Healthcare": {
+      "precision": 0.9047619047619048,
+      "recall": 0.8260869565217391,
+      "f1-score": 0.8636363636363636,
+      "support": 23.0
+    },
+    "IT": {
+      "precision": 0.8518518518518519,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9019607843137255,
+      "support": 24.0
+    },
+    "Marketing": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 42.0
+    },
+    "Sales": {
+      "precision": 0.8846153846153846,
+      "recall": 1.0,
+      "f1-score": 0.9387755102040817,
+      "support": 23.0
+    },
+    "accuracy": 0.8955823293172691,
+    "macro avg": {
+      "precision": 0.8924272832750925,
+      "recall": 0.9011398838711686,
+      "f1-score": 0.8941421136855733,
+      "support": 249.0
+    },
+    "weighted avg": {
+      "precision": 0.8989863784869581,
+      "recall": 0.8955823293172691,
+      "f1-score": 0.8947349294893894,
+      "support": 249.0
+    }
+  },
+  "test_confusion_matrix": [
+    [
+      36,
+      3,
+      1,
+      2,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      33,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      54,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      19,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      23,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      2,
+      35,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23
+    ]
+  ],
+  "department_names": [
+    "Engineering",
+    "Finance",
+    "HR",
+    "Healthcare",
+    "IT",
+    "Marketing",
+    "Sales"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "model_type": "DistilBERT",
+  "sample_size": 10,
+  "inference_time": 2.280625581741333,
+  "samples_per_second": 4.384761830288982,
+  "sample_accuracy": 0.8,
+  "sample_precision": 0.7619047619047619,
+  "sample_recall": 0.7857142857142857,
+  "sample_f1": 0.738095238095238,
+  "baseline_f1": 0.762,
+  "confidence_statistics": {
+    "mean_confidence": 0.8437986433506012,
+    "median_confidence": 0.9468735754489899,
+    "std_confidence": 0.17387165962852844,
+    "min_confidence": 0.489172101020813,
+    "max_confidence": 0.9756929278373718
+  },
+  "human_review_statistics": {
+    "total_needing_review": 3,
+    "review_rate": 0.3,
+    "high_confidence_predictions": 7,
+    "medium_confidence_predictions": 2,
+    "low_confidence_predictions": 1
+  },
+  "department_distribution": {
+    "Healthcare": 2,
+    "Sales": 1,
+    "HR": 1,
+    "IT": 3,
+    "Engineering": 1,
+    "Finance": 2
+  },
+  "per_class_metrics": {
+    "Engineering": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Finance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "HR": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Healthcare": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "IT": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.5,
+      "support": 1.0
+    },
+    "MARKETING": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Sales": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "accuracy": 0.8,
+    "macro avg": {
+      "precision": 0.7619047619047619,
+      "recall": 0.7857142857142857,
+      "f1-score": 0.738095238095238,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 0.8333333333333333,
+      "recall": 0.8,
+      "f1-score": 0.7833333333333333,
+      "support": 10.0
+    }
+  },
+  "timestamp": "2025-07-18T08:16:11.696038"
+}
