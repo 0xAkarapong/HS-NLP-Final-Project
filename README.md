@@ -25,7 +25,7 @@ A machine learning project that automatically classifies resumes into different 
 
 3. **Download the pre-trained model**
    ```bash
-   wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=112AQwMc5uYggc5tBW0v6Fp-QcdK8tseu' -O models/distilBERT_final_model/model.safetensors
+   gdown 'https://drive.google.com/uc?id=112AQwMc5uYggc5tBW0v6Fp-QcdK8tseu' -O models/distilBERT_final_model/model.safetensors
    ```
 
 ## Project Structure
