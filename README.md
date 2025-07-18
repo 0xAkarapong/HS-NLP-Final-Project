@@ -96,4 +96,4 @@ The model generates:
 
 ## License
 
-This project is for educational purposes as part of an NLP final project.
+This project is for educational purposes as part of Mastering NLP: Foundations to Frontiers with LLMs class final project.
